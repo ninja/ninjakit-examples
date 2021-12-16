@@ -1,2 +1,1 @@
-# ninjakit-examples
-Created with CodeSandbox
+# [ninjaKit Examples](https://ninjakit.dev)
