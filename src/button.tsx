@@ -1,4 +1,4 @@
-import { Button, ButtonAnchor, Card, GridArticle } from "ninjakit";
+import { Button, ButtonAnchor, Card } from "ninjakit";
 import { MdThumbUp } from "react-icons/md";
 
 export default function Example() {
