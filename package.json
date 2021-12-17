@@ -1,39 +1,35 @@
 {
-	"browserslist": [
-		"defaults and supports es6-module and supports es6-module-dynamic-import",
-		"not opera > 0",
-		"not samsung > 0",
-		"not and_qq > 0"
-	],
-	"dependencies": {
-		"@fontsource/roboto": "4.5.1",
-		"ninjakit": "1.4.2",
-		"react": "17.0.2",
-		"react-dom": "17.0.2",
-		"react-icons": "4.3.1",
-		"react-router-dom": "6.1.1"
-	},
-	"description": "Material designed React components",
-	"devDependencies": {
-		"@types/react": "17.0.37",
-		"@types/react-dom": "17.0.11",
-		"husky": "7.0.4",
-		"lint-staged": "12.1.2",
-		"prettier": "2.5.1",
-		"prettier-plugin-organize-attributes": "0.0.4",
-		"react-scripts": "5.0.0",
-		"typescript": "4.5.4"
-	},
-	"homepage": "https://ninjakit.dev",
-	"license": "Apache-2.0",
-	"main": "src/index.tsx",
-	"name": "ninjakit-examples",
-	"private": true,
-	"scripts": {
-		"build": "react-scripts build",
-		"check": "tsc --noEmit",
-		"eject": "react-scripts eject",
-		"start": "BROWSER=none react-scripts start"
-	},
-	"version": "1.0.0"
+    "browserslist": [
+        "defaults and supports es6-module and supports es6-module-dynamic-import",
+        "not opera > 0",
+        "not samsung > 0",
+        "not and_qq > 0"
+    ],
+    "dependencies": {
+        "@fontsource/roboto": "4.5.1",
+        "ninjakit": "1.4.2",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-icons": "4.3.1",
+        "react-router-dom": "6.1.1"
+    },
+    "description": "Material designed React components",
+    "devDependencies": {
+        "@types/react": "17.0.37",
+        "@types/react-dom": "17.0.11",
+        "react-scripts": "5.0.0",
+        "typescript": "4.5.4"
+    },
+    "homepage": "https://ninjakit.dev",
+    "license": "Apache-2.0",
+    "main": "src/index.tsx",
+    "name": "ninjakit-examples",
+    "private": true,
+    "scripts": {
+        "build": "react-scripts build",
+        "check": "tsc --noEmit",
+        "eject": "react-scripts eject",
+        "start": "BROWSER=none react-scripts start"
+    },
+    "version": "1.0.0"
 }
