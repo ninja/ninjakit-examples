@@ -7,8 +7,6 @@ export default function Example() {
 	const handleChange: ChangeEventHandler<HTMLInputElement> = ({
 		currentTarget: { value },
 	}) => {
-		console.log(value);
-
 		if (value !== "dark" && value !== "light" && value !== "system") return;
 
 		setColorScheme(value);
