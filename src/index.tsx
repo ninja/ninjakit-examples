@@ -1,36 +1,18 @@
 import "@fontsource/roboto/latin-400.css";
 import "@fontsource/roboto/latin-500.css";
-import "ninjakit/color-scheme";
+import "ninjakit/color-scheme/default.css";
 import "ninjakit/style.css";
 import "./style.css";
+import "ninjakit/color-scheme";
 
 import { StrictMode } from "react";
 import { render } from "react-dom";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
-import Button from "./button";
-import ButtonAnchor from "./button-anchor";
-import ColorScheme from "./color-scheme";
+import App from "./app";
 
 render(
 	<StrictMode>
-		<BrowserRouter>
-			<Routes>
-				<Route
-					element={
-						<main>
-							<Link to="button">Button</Link>
-							<Link to="button-anchor">ButtonAnchor</Link>
-							<Link to="color-scheme">useColorScheme</Link>
-						</main>
-					}
-					index
-				/>
-				<Route element={<Button />} path="button" />
-				<Route element={<ButtonAnchor />} path="button-anchor" />
-				<Route element={<ColorScheme />} path="color-scheme" />
-			</Routes>
-		</BrowserRouter>
+		<App />
 	</StrictMode>,
 	document.getElementById("app")
 );
