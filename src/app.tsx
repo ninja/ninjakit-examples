@@ -36,10 +36,7 @@ export default function Example() {
 				<Card appearance="elevated" title="Card" subhead="elevated">
 					<TextInput label="TextInput" />
 					<section>
-						<Button>
-							<MdThumbUp />
-							Button
-						</Button>
+						<Button leadingIcon={<MdThumbUp />}>Button</Button>
 						<AnchorButton href="/" target="_blank">
 							AnchorButton
 						</AnchorButton>
