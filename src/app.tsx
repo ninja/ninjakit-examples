@@ -34,7 +34,7 @@ export default function Example() {
 			</section>
 			<section>
 				<Card appearance="elevated" title="Card" subhead="elevated">
-					<TextInput label="TextInput" />
+					<TextInput id="text-input-example" label="TextInput" />
 					<section>
 						<Button leadingIcon={<MdThumbUp />}>Button</Button>
 						<AnchorButton href="/" target="_blank">
