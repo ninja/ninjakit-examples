@@ -7,7 +7,7 @@
 	],
 	"dependencies": {
 		"@fontsource/roboto": "4.5.5",
-		"ninjakit": "1.11.3",
+		"ninjakit": "1.14.2",
 		"react": "18.0.0",
 		"react-dom": "18.0.0"
 	},
