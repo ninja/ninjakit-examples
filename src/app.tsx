@@ -18,7 +18,7 @@ export default function Example() {
 	return (
 		<main>
 			<section>
-				<Card title="Card" subhead="filled">
+				<Card title="Card">
 					<Radioset<"light" | "dark" | "system">
 						defaultValue={colorScheme}
 						label="Radioset with useColorscheme"
@@ -33,9 +33,9 @@ export default function Example() {
 				</Card>
 			</section>
 			<section>
-				<Card appearance="elevated" title="Card" subhead="elevated">
-					<TextInput id="text-input-example" label="TextInput" />
+				<Card appearance="elevated" title="Card">
 					<section>
+						<TextInput id="text-input-example" label="TextInput" />
 						<Button leadingIcon={<MdThumbUp />}>Button</Button>
 						<AnchorButton href="/" target="_blank">
 							AnchorButton
