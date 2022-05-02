@@ -9,7 +9,7 @@
 		"@fontsource/roboto": "4.5.5",
 		"ninjakit": "1.14.2",
 		"react": "18.1.0",
-		"react-dom": "18.0.0"
+		"react-dom": "18.1.0"
 	},
 	"description": "Material designed React components",
 	"devDependencies": {
